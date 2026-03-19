@@ -14,6 +14,12 @@ pnpm install (recommended)
 npm install
 ```
 
+Intialize your Github repo:
+
+```bash
+git init
+```
+
 Run the development server:
 
 ```bash
