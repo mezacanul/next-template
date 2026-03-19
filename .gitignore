@@ -20,6 +20,10 @@
 # production
 /build
 
+# design files 
+/DESIGN_FILES
+/design_files
+
 # misc
 .DS_Store
 *.pem
