@@ -34,6 +34,15 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(cmsData.jsonLD).replace(
+              /</g,
+              "\\u003c"
+            ),
+          }}
+        /> */}
       </body>
     </html>
   );
